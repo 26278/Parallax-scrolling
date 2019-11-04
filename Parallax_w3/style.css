@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+.header{
+position: fixed;
+height: 100px;
+background-color: rgba(0, 0, 0, 0.4);
+width: 100%;
+z-index: 1;
+}
+.parallax {
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax--1{
+  /* The image used */
+  background-image: url("fishing1.jpg");
+}
+.parallax--2{
+  /* The image used */
+  background-image: url("fishing2.jpg");
+}
+.frame{
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 100px;
+  background-color: #000;
+  font-size: 20;
+  color: #fff;
+  z-index: 0;
+}

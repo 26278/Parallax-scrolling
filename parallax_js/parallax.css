@@ -1,0 +1,54 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  min-height: 70vh;
+  padding: 3em;
+}
+.title{
+  font-size: 24px;
+}
+.subtitle{
+  font-size: 18px;
+  font-style: italic;
+  margin: 2em 0;
+}
+
+.part {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3em;
+  background-color: #adadad;
+  background-attachment: fixed;
+  font-size: 3em;
+  color: #fff;
+  overflow-x: hidden;
+}
+.filter{
+  background-color: rgba(45, 186, 143, .6);
+  font-size: 3em;
+  margin: 3em;
+}
+.part__title{
+  font-size: 28px;
+}
+/* achtergrond afbeeldingen */
+.part--2 {
+  background-image: url("images/fishing1.jpg") ;
+  background-repeat: no-repeat;
+}
+
+.part--4 {
+  background-image: url("images/fishing2.jpg");
+  background-repeat: no-repeat;
+}
+
+.part--6 {
+  background-image: url("images/background1.jpg");
+  background-repeat: no-repeat;
+}
